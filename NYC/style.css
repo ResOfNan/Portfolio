@@ -1,0 +1,27 @@
+body{
+    background-color: #39a9cb;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#pictures{
+    width: 500px;
+}
+.btn{
+    background-color: #ffeda3;
+    border: none;
+    color: #232323;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+@media all and (max-width:500px){
+    #pictures{
+        width: 250px;
+        height: 400px;
+    }
+    .btn{
+        font-size: 15px;
+    }
+}
