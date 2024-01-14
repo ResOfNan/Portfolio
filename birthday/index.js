@@ -1,5 +1,5 @@
 function birthdayCountdown(){
-    const birthdayDate = new Date("July 2,2023 00:00");
+    const birthdayDate = new Date("July 2,2024 00:00");
     const now = new Date();
     const diff = birthdayDate-now;
     const msInSecond=1000;

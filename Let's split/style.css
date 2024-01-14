@@ -53,6 +53,7 @@ body {
         }
         #showTotalAmountToPay{
             display: flex;
+            
         }
         #billSplit,#totalTip,#totalAmount{
         font-family: 'Montserrat', sans-serif;
@@ -61,4 +62,19 @@ body {
         padding: 20px;
         border-radius: 10px;
         border: 1px solid black;   
+        }
+
+        @media all and (max-width:500px){
+            #container{
+                display: flex;
+                flex-direction: column;
+                width: 300px;
+            }
+            button{
+                width: 90%;
+            }
+            #billSplit,#totalTip,#totalAmount{
+                margin: 5px;
+                padding: 5px;
+            }
         }
